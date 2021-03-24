@@ -11,8 +11,8 @@ body,
 .login-box,
 .register-box {
     margin: 0 auto;
+    width: 430px;
     max-width: 430px;
-    width: auto;
 }
 .login-box-body,
 .register-box-body {
@@ -58,7 +58,7 @@ body,
     height: 48px;
     line-height: normal;
     padding: 0;
-    text-shadow: none;	
+    text-shadow: none;
     border-radius: 0;
     border: 2px solid;
     border-color: #509cfd;
@@ -155,4 +155,14 @@ li {
 }
 .has-feedback {
     position: relative;
+}
+
+
+@media only screen and (max-width : 576px){
+    .login-box-body {
+        padding: 35px;
+    }
+    .login-box {
+        width: 90%;
+    }
 }
